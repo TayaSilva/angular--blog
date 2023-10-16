@@ -1,0 +1,21 @@
+.container_menu-bar{
+    margin-top: 20px;
+}
+
+.container_menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center
+    
+    
+}
+
+.container_menu-bar > ul > li{
+    margin-right: 60px;
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+}

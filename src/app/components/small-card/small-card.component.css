@@ -1,0 +1,42 @@
+.container_small-card{
+    
+    width: 900px;
+    
+}
+.container_small-card_content{
+    display: flex;
+    flex-direction: row;
+}
+
+.small-card_date > p{
+    color: rgb(71, 70, 70);
+    font-size: 10px;
+    
+}
+
+.small-card_date{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.small-card_title{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.small-card_photo >img{
+width: 200px;
+margin-right: 20px;
+}
+
+.small-card_separador{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
