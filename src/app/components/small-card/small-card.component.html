@@ -1,17 +1,11 @@
 <div class="container_small-card">
     <div class="container_small-card_content">
         <div class="small-card_photo">
-            <img src="https://sm.ign.com/ign_br/screenshot/default/blob_d6b9.jpg" alt="foto chapeus de palha" srcset="">
+            <img src="{{ photoSM }}" alt="foto chapeus de palha" srcset="">
         </div>
-
-
-        <div class="small-card_date">
-            <p>13 de Setembro de 2023</p>
-        </div>
-
 
         <div class="small-card_title">
-            <h1><a href="#"> Capitão Luffy retorna ainda mais forte </a></h1>
+            <h1><a [routerLink]="['content', Id]"> {{titleSM}} </a></h1>
         </div>
 
 

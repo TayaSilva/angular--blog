@@ -8,17 +8,6 @@
     flex-direction: row;
 }
 
-.small-card_date > p{
-    color: rgb(71, 70, 70);
-    font-size: 10px;
-    
-}
-
-.small-card_date{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
 
 .small-card_title{
     

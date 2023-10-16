@@ -1,17 +1,17 @@
 <div class="container-big-card">
     <div class="big-card_picture">
-        <img src="https://c4.wallpaperflare.com/wallpaper/56/368/958/anime-lufy-one-piece-wallpaper-preview.jpg" alt="imagem lufy" height="300px" width="400px">
+        <img src="{{photoCover}}" alt="imagem lufy" height="300px" width="400px">
 
     </div>
    
 
     <div class="big-card_title">
-        <h1> <a href="#">Monkey D. Luffy, o chapeu de palha</a> </h1>
+        <h1> <a [routerLink]="['content', Id]">{{ cardTitle }}</a> </h1>
 
     </div>
     <div class="big-card_description">
-        <p>O homem ta de volta, rapaziada </p>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one o</p>
+        <p><a [routerLink]="['content', Id]">{{SubTitle}}</a></p>
+        <p>{{ cardDescription}}</p>
 
     </div>
 </div>
